@@ -14,9 +14,13 @@ We designed a decision-making task where partcipants learned the value of two di
 The codes in this repo apply sklearn and MNE tools to train SVM classifiers for every 10ms time window to discriminate across faces, colors, face values, color values, and the overall value of the stimulus. These classifiers were then tested on all other 10ms time bins on the task timeline to find time periods where a "patten" of neural activity repeated suggesting re-occurence of the same mental representations.
 
 temp_gen_binary.ipynb performs binary classification with temporal generalization for all subjects.
+
 temp_gen_multi.ipynb performs multi-class classification with temporal generalization for all subjects.
+
 temp_gen_plot.ipynb  contains functions that plot the results of temporal generalization analysis per subject and averaged across all subjects.
+
 temp_gen_explore_1.ipynb plots the results of testing all time bins on the classifier at the time bin with maximum classification accuracy. The idea is to see if the neural representations of face, color, or value are repeated after the stimuli disappear.
+
 EEG_auxiliary_module_sptm_wICA.ipynb contains all the helper functions
 
 
