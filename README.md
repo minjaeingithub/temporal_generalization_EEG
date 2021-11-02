@@ -25,6 +25,6 @@ EEG_auxiliary_module_sptm_wICA.ipynb contains all the helper functions
 
 
 ### Data
-The input is the subject data that were pre-processed using MNE, namely filtered, segmented, and cleaned from artefatcs.
+The input is the subject data that were pre-processed using MNE, namely filtered, segmented, and cleaned from artefatcs. 
 
 
